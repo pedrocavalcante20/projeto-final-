@@ -1,9 +1,3 @@
-/*
- ============================================================================
-  Sistema de Gerenciamento de Modelos de Motocicletas
- ============================================================================
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +6,7 @@
 // Definição da estrutura principal
 // ---------------------------------------------------------------------------
 typedef struct {
-    char modelo[50];     // Nome do modelo da moto
+    char modelo[100];     // Nome do modelo da moto
     int cilindrada;      // Cilindrada (ex: 150, 600)
     float preco;         // Preço da moto
 } Motocicleta;
